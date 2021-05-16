@@ -1,0 +1,70 @@
+/* Font Sizes ----------------------------------------------- */
+.f10 { font-size: 10px; }
+.f11 { font-size: 11px; }
+.f12 { font-size: 12px; }
+.f13 { font-size: 13px; }
+.f15 { font-size: 15px; }
+.f17 { font-size: 17px; }
+.f18 { font-size: 18px; }
+.f20 { font-size: 20px; }
+.f22 { font-size: 22px; }
+.f25 { font-size: 25px; }
+.f30 { font-size: 30px; }
+.f35 { font-size: 35px; }
+.f40 { font-size: 40px; }
+.f50 { font-size: 50px; }
+.f80 { font-size: 80px; }
+.f100 { font-size: 100px; }
+.f120 { font-size: 120px; }
+
+/* Text ----------------------------------------------------- */
+.pointer { cursor: pointer; }
+.text{ cursor: text; }
+.capitalize { text-transform: capitalize; }
+.line-through { text-decoration: line-through; }
+.italic { font-style: italic !important; }
+.bold { font-weight: bold !important; }
+.normal { font-weight: normal !important; }
+.uppercase { text-transform: uppercase; }
+.text-center { text-align: center; }
+.text-left { text-align: left !important; }
+.text-right { text-align: right !important; }
+.text-justify { text-align: justify !important; }
+.no-underline { text-decoration: none !important; }
+
+/* Layout --------------------------------------------------- */
+.overflow { overflow: hidden; }
+.overflow-y { overflow-y: auto; }
+.overflow-x { overflow-x: auto; }
+.overflow-x-hidden { overflow-x: hidden; }
+.overflow-visible { overflow: visible !important; }
+.overflow-y-fixed { overflow-y: hidden !important; margin-right: 17px; }
+.left { float: left !important; }
+.right { float: right !important; }
+.none-float { float: none; }
+.clear { clear: both; }
+.no-wrap { white-space: nowrap !important; }
+.middle { vertical-align: middle; }
+.relative { position: relative; }
+.absolute { position: absolute !important; }
+.inline { display: inline !important; }
+.block { display: block !important; }
+.inline-block { display: inline-block !important; }
+.hide { display: none; }
+.hide-hard { display: none !important; }
+.show { display: block; }
+.show-hard { display: block !important; }
+.height-auto { min-height: auto !important; height: auto !important; }
+.flexbox { display: flex; }
+
+/* Components ----------------------------------------------- */
+.list-none { list-style: none !important; }
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+.grid > [class*=column-] {
+    display: block;
+}

@@ -1,0 +1,306 @@
+/* Raleway Normal ---------------------------------------------------------- */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 100;
+  src:
+  	local('Raleway'),
+  	local('raleway-thin.woff'),
+  	url('../src/assets/fonts/raleway-thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 200;
+  src:
+  	local('Raleway'),
+  	local('raleway-extralight.woff'),
+  	url('../src/assets/fonts/raleway-extralight.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src:
+  	local('Raleway'),
+  	local('raleway-light.woff'),
+  	url('../src/assets/fonts/raleway-light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src:
+  	local('Raleway'),
+  	local('raleway-regular.woff'),
+  	url('../src/assets/fonts/raleway-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src:
+  	local('Raleway'),
+  	local('raleway-medium.woff'),
+  	url('../src/assets/fonts/raleway-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src:
+  	local('Raleway'),
+  	local('raleway-semibold.woff'),
+  	url('../src/assets/fonts/raleway-semibold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src:
+  	local('Raleway'),
+  	local('raleway-bold.woff'),
+  	url('../src/assets/fonts/raleway-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  src:
+  	local('Raleway'),
+  	local('raleway-extrabold.woff'),
+  	url('../src/assets/fonts/raleway-extrabold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 900;
+  src:
+  	local('Raleway'),
+  	local('raleway-black.woff'),
+  	url('../src/assets/fonts/raleway-black.woff') format('woff');
+}
+
+/* Raleway Italic ---------------------------------------------------------- */
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 100;
+  src:
+  	local('Raleway'),
+  	local('raleway-thin.woff'),
+  	url('../src/assets/fonts/raleway-thinitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 200;
+  src:
+  	local('Raleway'),
+  	local('raleway-extralight.woff'),
+  	url('../src/assets/fonts/raleway-extralightitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 300;
+  src:
+  	local('Raleway'),
+  	local('raleway-light.woff'),
+  	url('../src/assets/fonts/raleway-lightitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 400;
+  src:
+  	local('Raleway'),
+  	local('raleway-regular.woff'),
+  	url('../src/assets/fonts/raleway-regularitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  src:
+  	local('Raleway'),
+  	local('raleway-medium.woff'),
+  	url('../src/assets/fonts/raleway-mediumitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 600;
+  src:
+  	local('Raleway'),
+  	local('raleway-semibold.woff'),
+  	url('../src/assets/fonts/raleway-semibolditalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 700;
+  src:
+  	local('Raleway'),
+  	local('raleway-bold.woff'),
+  	url('../src/assets/fonts/raleway-bolditalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 800;
+  src:
+  	local('Raleway'),
+  	local('raleway-extrabold.woff'),
+  	url('../src/assets/fonts/raleway-extrabolditalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 900;
+  src:
+  	local('Raleway'),
+  	local('raleway-black.woff'),
+  	url('../src/assets/fonts/raleway-blackitalic.woff') format('woff');
+}
+
+
+
+/* Roboto Normal ----------------------------------------------------------- */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src:
+      local('Roboto'),
+      local('roboto-thin.woff'),
+      url('../src/assets/fonts/roboto-thin.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src:
+      local('Roboto'),
+      local('roboto-light.woff'),
+      url('../src/assets/fonts/roboto-light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src:
+      local('Roboto'),
+      local('roboto-regular.woff'),
+      url('../src/assets/fonts/roboto-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src:
+      local('Roboto'),
+      local('roboto-medium.woff'),
+      url('../src/assets/fonts/roboto-medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src:
+      local('Roboto'),
+      local('roboto-bold.woff'),
+      url('../src/assets/fonts/roboto-bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src:
+      local('Roboto'),
+      local('roboto-black.woff'),
+      url('../src/assets/fonts/roboto-black.woff') format('woff');
+}
+
+
+/* Roboto italic ----------------------------------------------------------- */
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 100;
+  src:
+      local('Roboto'),
+      local('roboto-thin.woff'),
+      url('../src/assets/fonts/roboto-thinitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 300;
+  src:
+      local('Roboto'),
+      local('roboto-light.woff'),
+      url('../src/assets/fonts/roboto-lightitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src:
+      local('Roboto'),
+      local('roboto-regular.woff'),
+      url('../src/assets/fonts/roboto-regularitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src:
+      local('Roboto'),
+      local('roboto-medium.woff'),
+      url('../src/assets/fonts/roboto-mediumitalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src:
+      local('Roboto'),
+      local('roboto-bold.woff'),
+      url('../src/assets/fonts/roboto-bolditalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 900;
+  src:
+      local('Roboto'),
+      local('roboto-black.woff'),
+      url('../src/assets/fonts/roboto-blackitalic.woff') format('woff');
+}

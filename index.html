@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Chicadeau</title>
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="shortcut icon" href="ux.ico" type="image/x-icon">
+</head>
+
+<body>
+	<header>
+		<nav class="flex__nav">
+			<div class="container">
+				<div class="grid menu">
+					<div class="main__logo__container column-xs-8 column-md-6">
+						<p id="main__logo">Logo</p>
+					</div>
+					<div class="main__menu column-xs-4 column-md-6">
+						<a href="#" class="toggle-nav">Menu <i class="ion-navicon-round"></i></a>
+						<ul>
+							<li class="nav__item"><a href="#" title="Search">Search</a></li>
+							<li class="nav__item"><a href="#" title="Help">Help</a></li>
+							<li class="nav__item"><a href="#" title="Account">Account</a></li>
+							<li class="nav__item"><a href="#" title="Cart" class="cart">Cart <span class="badge">(<span
+											class="badge__value">3</span>)</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main id="main__container">
+		<div class="container">
+			<div class="grid second-nav">
+				<div class="column-xs-12">
+					<nav>
+						<ol class="breadcrumb__list">
+							<li class="breadcrumb__item"><a href="#">Home</a></li>
+							<li class="breadcrumb__item"><a href="#">Women</a></li>
+							<li class="breadcrumb__item active">Shoes</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+			<div class="grid product">
+				<div class="column-xs-12 column-md-7">
+					<div class="product-gallery">
+						<div class="product-image">
+							<img class="active" src="./src/assets/img/items/shoes-1.jpg">
+						</div>
+						<ul class="image-list">
+							<li class="image-item"><a href="#"><img src="./src/assets/img/items/shoes-1-2.jpg"></a></li>
+							<li class="image-item"><a href="#"><img src="./src/assets/img/items/shoes-1-3.jpg"></a></li>
+							<li class="image-item"><a href="#"><img src="./src/assets/img/items/shoes-1-4.jpg"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="column-xs-12 column-md-5">
+					<h1>Product Name</h1>
+					<h6>SKU: AN611A0UK-F11</h6>
+					<h2>45.20€</h2>
+					<div class="description">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua.</p>
+						<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+							commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+							dolore eu fugiat nulla pariatur.</p>
+					</div>
+
+					<div class="qty">
+						<label for="qty">Quantity:</label>
+						<button class="qtyminus" aria-hidden="true">&minus;</button>
+						<input type="number" name="qty" id="qty" min="1" max="10" step="1" value="1">
+						<button class="qtyplus" aria-hidden="true">&plus;</button>
+					</div>
+
+					<button class="add-to-cart"><label for="modal-1">Add To Cart</label></button>
+
+
+					<div class="accordion">
+						<div class="accordion-item">
+							<button id="accordion-button-1" aria-expanded="false"><span
+									class="accordion-title">Composición y cuidados</span><span class="icon"
+									aria-hidden="true"></span></button>
+							<div class="accordion-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis
+									ut. Ut tortor pretium viverra suspendisse potenti.</p>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<button id="accordion-button-2" aria-expanded="false"><span
+									class="accordion-title">Características</span><span class="icon"
+									aria-hidden="true"></span></button>
+							<div class="accordion-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis
+									ut. Ut tortor pretium viverra suspendisse potenti.</p>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Talla y
+									corte</span><span class="icon" aria-hidden="true"></span></button>
+							<div class="accordion-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis
+									ut. Ut tortor pretium viverra suspendisse potenti.</p>
+							</div>
+						</div>
+						<div class="accordion-item">
+							<button id="accordion-button-4" aria-expanded="false"><span
+									class="accordion-title">Opiniones</span><span class="icon"
+									aria-hidden="true"></span></button>
+							<div class="accordion-content">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis
+									ut. Ut tortor pretium viverra suspendisse potenti.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="grid related-products">
+				<div class="column-xs-12">
+					<h3>You may also like</h3>
+				</div>
+				<div class="column-xs-12 column-md-4">
+					<a href="#"><img src="./src/assets/img/items/shoes-2.jpg"></a>
+					<h4><a href="#">Product Name</a></h4>
+					<p class="price">24.10€</p>
+				</div>
+				<div class="column-xs-12 column-md-4">
+					<a href="#"><img src="./src/assets/img/items/shoes-3.jpg"></a>
+					<h4><a href="#">Product Name</a></h4>
+					<p class="price">23.75€</p>
+				</div>
+				<div class="column-xs-12 column-md-4">
+					<a href="#"><img src="./src/assets/img/items/shoes-4.jpg"></a>
+					<h4><a href="#">Product Name</a></h4>
+					<p class="price">21.99€</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<div class="sidebar">
+		<h5>Items in your Shooping Cart:</h5>
+		<ul class="sidebar-list shopping-cart-items">
+			<li class="sidebar-item clearfix">
+				<div class="thumb">
+					<a href="#" title="item1">
+						<img src="./src/assets/img/items/shoes-4.jpg" alt="item1" />
+					</a>
+				</div>
+				<div class="details">
+					<span class="item-name"><a href="#" title="Product Name">Product Name</a></span>
+					<span class="item-remove"><a class="item-remove-btn" href="#" title="Remove">╳</a></span>
+					<span class="item-price">18.00€</span>
+					<span class="item-quantity">Quantity: 01</span>
+				</div>
+			</li>
+			<li class="sidebar-item clearfix">
+				<div class="thumb">
+					<a href="#" title="item1">
+						<img src="./src/assets/img/items/shoes-3.jpg" alt="item1" />
+					</a>
+				</div>
+				<div class="details">
+					<span class="item-name"><a href="#" title="Product Name">Product Name</a></span>
+					<span class="item-remove"><a class="item-remove-btn" href="#" title="Remove">╳</a></span>
+					<span class="item-price">18.00€</span>
+					<span class="item-quantity">Quantity: 01</span>
+				</div>
+			</li>
+			<li class="sidebar-item clearfix">
+				<div class="thumb">
+					<a href="#" title="item1">
+						<img src="./src/assets/img/items/shoes-2.jpg" alt="item1" />
+					</a>
+				</div>
+				<div class="details">
+					<span class="item-name"><a href="#" title="Product Name">Product Name</a></span>
+					<span class="item-remove"><a class="item-remove-btn" href="#" title="Remove">╳</a></span>
+					<span class="item-price">18.00€</span>
+					<span class="item-quantity">Quantity: 01</span>
+				</div>
+			</li>
+		</ul>
+		<a id="checkout" href="#" class="btn--checkout">Checkout</a>
+		<a id="continue" class="btn--secondary">Continue Shopping</a>
+	</div>
+
+	<section>
+		<input class="modal-state" id="modal-1" type="checkbox" />
+		<div class="modal">
+			<label class="modal__bg" for="modal-1"></label>
+			<div class="modal__inner">
+				<label class="modal__close" for="modal-1"></label>
+				<h2>A new item has been added to your Shopping Cart.</h2>
+				<a class="btn--checkout" title="View Shopping Cart"><label for="modal-1">View Shopping Cart</label></a>
+				<a class="btn--secondary"><label for="modal-1">Continue Shopping</label></a>
+				<p>Buyers Who Bought This Item Also Bought:</p>
+				<section class="more">
+					<a href="#"><img src="./src/assets/img/items/shoes-1.jpg"></a>
+					<a href="#"><img src="./src/assets/img/items/shoes-2.jpg"></a>
+					<a href="#"><img src="./src/assets/img/items/shoes-3.jpg"></a>
+				</section>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p class="copyright">&copy; Copyright 2021 <a href="#" title="Fernando Jiménez Peña" target="_blank">Fernando
+				Jiménez Peña</a></p>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+		integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="./js/main.js"></script>
+
+	<script>
+		App.init();
+	</script>
+</body>
+
+</html>

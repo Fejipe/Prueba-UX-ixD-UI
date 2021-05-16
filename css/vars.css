@@ -1,0 +1,12 @@
+:root {
+  --mainFontFamily: Roboto, Raleway, sans-serif;
+  --mainFontColor: #101820;
+  --containerWidth: 600px;
+
+  --colorBlack: #343d46;
+  --colorWhite: #ffffff;
+  --colorGrey: #aaaaaa;
+  --colorLightGrey: #e3dddd;
+  --colorDarkGrey: #3e3e3f;
+  --colorPink: #bb316c;
+}
